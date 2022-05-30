@@ -1,0 +1,24 @@
+{
+    "dependencies": {
+        "sass": "^1.52.1"
+    },
+    "name": "ohmyfood",
+    "version": "1.0.0",
+    "description": "Projet 3 Oh my food OpenClassrooms",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
+        "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Gislhaine/Ohmyfood.git"
+    },
+    "author": "Gislhaine GUEI",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Gislhaine/Ohmyfood/issues"
+    },
+    "homepage": "https://github.com/Gislhaine/Ohmyfood#readme"
+}
